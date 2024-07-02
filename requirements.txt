@@ -1,0 +1,8 @@
+langchain
+langchain_openai #solo si vamos a usar openai
+langchain_community
+langchain_text_splitters
+pypdf
+langchain_chroma
+sentence-transformers
+gradio
