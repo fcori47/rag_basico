@@ -10,7 +10,7 @@ from langchain_core.prompts import ChatPromptTemplate
 os.environ["OPENAI_API_KEY"] = '' #API Key de OPENAI (version paga)
 
 
-llm = ChatOpenAI(model='gpt-3.5-turbo-0125', temperature=0)
+llm = ChatOpenAI(model='gpt-4o-mini', temperature=0)
 chroma_local = Chroma(persist_directory="./vectordb", embedding_function=OpenAIEmbeddings())
     
 
